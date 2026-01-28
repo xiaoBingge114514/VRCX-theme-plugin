@@ -4,6 +4,8 @@
 
 *A collection of custom themes and utility scripts for VRCX*
 
+| **English** |  [简体中文](./README.md)
+
 </div>
 
 ---
