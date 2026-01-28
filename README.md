@@ -1,6 +1,11 @@
+<div align="center">
+  
 # 🎨 VRCX非官方主题插件库
 
 *为 VRCX 提供的自定义主题样式与实用脚本合集*
+
+| **简体中文** | [英文](./README.en.md)
+</div>
 
 ---
 
@@ -45,6 +50,9 @@
 
 更换房间时自动更新模型
 
+<div align="center">
+<img width="355" height="755" alt="QQ20260129-010806" src="https://github.com/user-attachments/assets/982bdc9f-84fe-4261-903f-5bf8e1565958" />
+</div>
 
 #### 📋 功能说明
 - 🔍 自动检测房间切换事件
