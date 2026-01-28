@@ -1,3 +1,7 @@
+/* %AppData%/VRCX/custom.js */
+/* 使用脚本后果自负！ */
+
+
 (() => {
     const STORAGE_KEY = 'vrcx_custom_switch_avatar_map';
     const CHECK_INTERVAL_MS = 2000;
@@ -199,7 +203,7 @@
         const root = document.createElement('div');
         root.id = 'vrcx-custom-switch-ui';
         root.style.position = 'fixed';
-        root.style.right = '18px';
+        root.style.right = '60px';
         root.style.bottom = '18px';
         root.style.zIndex = '9999';
         root.style.fontFamily = 'system-ui, sans-serif';
