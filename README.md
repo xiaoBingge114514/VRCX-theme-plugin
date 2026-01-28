@@ -20,7 +20,7 @@
 还原2026年初VRCX的深蓝色主题样式
 
 <div align="center">
-<img width="1558" height="914" alt="QQ20260128-233248" src="https://github.com/user-attachments/assets/3a6704fb-3a7b-44d0-99f6-e72657a759bf" />
+<img width="1558" height="923" alt="深蓝色示例" src="https://github.com/user-attachments/assets/c8e4d064-ed2c-4eaa-81e3-0985067d1fed" />
 </div>
 
 
@@ -33,11 +33,13 @@
 #### 🖼️ 效果预览
 | 原版样式 | 深蓝主题 |
 |:--------:|:--------:|
-| <img width="512" height="288" alt="QQ20260128-235001" src="https://github.com/user-attachments/assets/2a3c95fe-173b-4461-8d69-b3a9e022f204" /> | <img width="512" height="288" alt="QQ20260128-233248" src="https://github.com/user-attachments/assets/3a6704fb-3a7b-44d0-99f6-e72657a759bf" /> |
+| <img width="512" height="288" alt="QQ20260128-235001" src="https://github.com/user-attachments/assets/2a3c95fe-173b-4461-8d69-b3a9e022f204" /> | <img width="512" height="288" alt="QQ20260128-233248" src="https://github.com/user-attachments/assets/c8e4d064-ed2c-4eaa-81e3-0985067d1fed" /> |
 
 ---
 
 ## ⚡ JS脚本
+
+> 🚨 **风险提示：**  JS脚本涉及到 VRChat 游戏数据交互，使用非官方脚本存在一定风险。在使用前请务必了解可能的后果，**使用风险自负！** 建议仅在了解代码功能的情况下使用。
 
 ### change-avatar.js
 
@@ -52,7 +54,8 @@
 
 #### 📥 安装步骤
 1. 下载 `scripts/change-avatar.js` 文件
-2. 打开 VRCX → **设置** ⚙️ → **高级** → **自定义 JavaScript**
-3. 将 JS 代码粘贴到编辑器中
-4. 根据注释修改配置参数（模型ID等）
-5. 点击 **保存并运行**
+2. 重命名为 'custom.js' 
+3. 放到 %APPDATA%/VRCX 里
+4. 重启 VRCX 
+5. 根据注释修改配置参数（模型ID等）
+6. 点击 **保存**
