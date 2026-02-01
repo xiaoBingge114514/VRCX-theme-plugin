@@ -1,0 +1,75 @@
+/* %AppData%/VRCX/custom.css */
+
+/* Pink Theme */
+
+:root {
+  --background: #fae0e0 !important;
+  --foreground: #4a3030 !important;
+  --card: #ffffff !important;
+  --card-foreground: #4a3030 !important;
+  --popover: #ffffff !important;
+  --popover-foreground: #4a3030 !important;
+  --primary: #dfa2a2 !important;
+  --primary-foreground: #ffffff !important;
+  --secondary: #f5d5d5 !important;
+  --secondary-foreground: #5d4040 !important;
+  --muted: #f0c8c8 !important;
+  --muted-foreground: #8a6060 !important;
+  --accent: #e8a0a0 !important;
+  --accent-foreground: #ffffff !important;
+  --destructive: #ef4444 !important;
+  --destructive-foreground: #ffffff !important;
+  --border: #f0cccc !important;
+  --input: #f0cccc !important;
+  --ring: #dfa2a2 !important;
+  --radius: 0.5rem !important;
+  --chart-1: #dfa2a2 !important;
+  --chart-2: #e8b4b4 !important;
+  --chart-3: #f0c6c6 !important;
+  --chart-4: #f5d5d5 !important;
+  --chart-5: #fae0e0 !important;
+  --sidebar: #fff5f5 !important;
+  --sidebar-foreground: #5a3a3a !important;
+  --sidebar-primary: #dfa2a2 !important;
+  --sidebar-primary-foreground: #ffffff !important;
+  --sidebar-accent: #f5c8c8 !important;
+  --sidebar-accent-foreground: #4a3030 !important;
+  --sidebar-border: #fae0e0 !important;
+  --sidebar-ring: #dfa2a2 !important;
+}
+
+.dark {
+  --background: #322525 !important;
+  --foreground: #ddcccc !important;
+  --card: #443030 !important;
+  --card-foreground: #faeeee !important;
+  --popover: #443030 !important;
+  --popover-foreground: #ddcccc !important;
+  --primary: #dfa2a2 !important;
+  --primary-foreground: #ffffff !important;
+  --secondary: #554040 !important;
+  --secondary-foreground: #faeeee !important;
+  --muted: #4a3d3d !important;
+  --muted-foreground: #988888 !important;
+  --accent: #aa6065 !important;
+  --accent-foreground: #ffffff !important;
+  --destructive: #c95450 !important;
+  --destructive-foreground: #ffffff !important;
+  --border: #554040 !important;
+  --input: #554040 !important;
+  --ring: #dfa2a2 !important;
+  --radius: 0.5rem !important;
+  --chart-1: #dfa2a2 !important;
+  --chart-2: #c08080 !important;
+  --chart-3: #a06060 !important;
+  --chart-4: #855050 !important;
+  --chart-5: #655050 !important;
+  --sidebar: #322525 !important;
+  --sidebar-foreground: #ddcccc !important;
+  --sidebar-primary: #dfa2a2 !important;
+  --sidebar-primary-foreground: #ffffff !important;
+  --sidebar-accent: #443030 !important;
+  --sidebar-accent-foreground: #faeeee !important;
+  --sidebar-border: #554040 !important;
+  --sidebar-ring: #dfa2a2 !important;
+}
