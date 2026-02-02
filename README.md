@@ -1,8 +1,8 @@
 <div align="center">
   
 # 🎨 VRCX非官方主题插件库
-
-*为 VRCX 提供的自定义主题样式与实用脚本合集*
+  
+*为 <img src="https://raw.githubusercontent.com/vrcx-team/VRCX/master/images/VRCX.ico" width="20" height="20"> </img> [VRCX](https://github.com/vrcx-team/VRCX) 提供的自定义主题样式与实用脚本合集*
 
 | **简体中文** | [English](./README.en.md) |
 </div>
@@ -13,6 +13,7 @@
 
 - [主题插件](#-主题插件)
   - [darkblue-theme.css](#darkblue-themecss)
+  - [Pink-themes.css](#pink-themescss)
 - [JS脚本](#-js脚本)
   - [change-avatar.js](#change-avatarjs)
 
@@ -28,17 +29,39 @@
 <img width="1558" height="923" alt="深蓝色示例" src="https://github.com/user-attachments/assets/c8e4d064-ed2c-4eaa-81e3-0985067d1fed" />
 </div>
 
-
-#### 📥 安装步骤
-1. 下载 `themes/darkblue-theme.css` 文件
-2. 重命名为 'custom.css' 
-3. 放到 %APPDATA%/VRCX 里
-4. 按下 Shitf + ALT + R 或重启 VRCX 即可生效
-
 #### 🖼️ 效果预览
 | 原版样式 | 深蓝主题 |
 |:--------:|:--------:|
 | <img width="512" height="288" alt="QQ20260128-235001" src="https://github.com/user-attachments/assets/2a3c95fe-173b-4461-8d69-b3a9e022f204" /> | <img width="512" height="288" alt="QQ20260128-233248" src="https://github.com/user-attachments/assets/c8e4d064-ed2c-4eaa-81e3-0985067d1fed" /> |
+
+<br>
+
+---
+
+<br>
+
+###  Pink-themes.css
+
+基于 [Kamiya4070](https://github.com/kamiya4047) 的粉色主题样式
+
+<div align="center">
+<img width="1024" height="512" alt="暗色模式" src="https://github.com/user-attachments/assets/72c52954-6465-4bf2-9609-597e1331152c" />
+</div>
+
+#### 🖼️ 效果预览
+| 亮色模式 | 暗色模式 |
+|:--------:|:--------:|
+| <img width="512" height="288" alt="亮色模式" src="https://github.com/user-attachments/assets/49ae3d23-da13-46bd-9b96-f6569ac8249a" /> | <img width="512" height="288" alt="暗色模式" src="https://github.com/user-attachments/assets/72c52954-6465-4bf2-9609-597e1331152c" /> |
+
+<br>
+
+### 📥 安装步骤
+1. 下载 `themes/“颜色主题”.css` 文件
+2. 重命名为 'custom.css' 
+3. 放到 %APPDATA%/VRCX 里
+4. 按下 Shitf + ALT + R 或重启 VRCX 即可生效
+
+<br>
 
 ---
 
