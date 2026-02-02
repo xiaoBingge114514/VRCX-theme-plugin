@@ -59,7 +59,7 @@
 1. 下载 `themes/“颜色主题”.css` 文件
 2. 重命名为 'custom.css' 
 3. 放到 %APPDATA%/VRCX 里
-4. 按下 Shitf + ALT + R 或重启 VRCX 即可生效
+4. 按下 Shift + ALT + R 或重启 VRCX 即可生效
 
 <br>
 
