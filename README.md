@@ -12,7 +12,7 @@
 ## 📋 目录
 
 - [主题插件](#-主题插件)
-  - [darkblue-theme.css](#darkblue-themecss)
+  - [Darkblue-theme.css](#Darkblue-themecss)
   - [Pink-themes.css](#pink-themescss)
 - [JS脚本](#-js脚本)
   - [change-avatar.js](#change-avatarjs)
@@ -21,7 +21,7 @@
 
 ## 🎨 主题插件
 
-### darkblue-theme.css
+### Darkblue-theme.css
 
 还原2026年初VRCX的深蓝色主题样式
 
@@ -32,7 +32,7 @@
 #### 🖼️ 效果预览
 | 原版样式 | 深蓝主题 |
 |:--------:|:--------:|
-| <img width="512" height="288" alt="QQ20260128-235001" src="https://github.com/user-attachments/assets/2a3c95fe-173b-4461-8d69-b3a9e022f204" /> | <img width="512" height="288" alt="QQ20260128-233248" src="https://github.com/user-attachments/assets/c8e4d064-ed2c-4eaa-81e3-0985067d1fed" /> |
+| <img width="512" height="288" alt="源样式" src="https://github.com/user-attachments/assets/2a3c95fe-173b-4461-8d69-b3a9e022f204" /> | <img width="512" height="288" alt="新样式" src="https://github.com/user-attachments/assets/c8e4d064-ed2c-4eaa-81e3-0985067d1fed" /> |
 
 <br>
 
@@ -42,7 +42,7 @@
 
 ###  Pink-themes.css
 
-基于 [Kamiya4070](https://github.com/kamiya4047) 的粉色主题样式
+基于 [Kamiya4047](https://github.com/kamiya4047) 复刻的 [粉色主题](https://github.com/vrcx-team/VRCX/wiki/Themes#legacy-broken-themes) 样式
 
 <div align="center">
 <img width="1024" height="512" alt="暗色模式" src="https://github.com/user-attachments/assets/72c52954-6465-4bf2-9609-597e1331152c" />
