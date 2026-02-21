@@ -1,6 +1,6 @@
 /* %AppData%/VRCX/custom.js */
 /* 使用脚本后果自负！ */
-
+/* 脚本：Avatar Auto Switch */
 
 (() => {
     const STORAGE_KEY = 'vrcx_custom_switch_avatar_map';
