@@ -75,7 +75,9 @@
 
 ---
 
-### Auto Social Status
+### 💡 2026.5.3版本 正在更新中 *(5.4)💡
+
+### Auto Social Status 
 
 [JSE] 根据时间/房间类型自动切换社交状态
 
