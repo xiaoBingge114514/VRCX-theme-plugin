@@ -1,5 +1,7 @@
 /* %AppData%/VRCX/custom.js */
 /* 使用脚本后果自负！ */
+/* 脚本: ExtensionJSManager + Auto Social Status */
+/* 版本: VRCX - 2026.05.03 */
 
 (() => {
     'use strict';

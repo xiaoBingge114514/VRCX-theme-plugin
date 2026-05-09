@@ -1,6 +1,7 @@
 /* %AppData%/VRCX/custom.js */
 /* 使用脚本后果自负！ */
 /* 合并脚本：Auto Social Status + Avatar Auto Switch + ExtensionJSManager */
+/* 版本: VRCX - 2026.05.03 */
 
 (() => {
     'use strict';
