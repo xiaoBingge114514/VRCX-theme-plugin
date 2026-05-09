@@ -71,7 +71,7 @@
 
 ---
 
-## 关于websocketerror
+## ❓ 关于websocketerror
 
 `VRCX 2026.05.03` 新版本中将错误提示移动到了屏幕正上方，这对于网络有些许不好的朋友来说特别碍眼
 
@@ -129,7 +129,7 @@ li[data-type="error"][style*="--initial-height"] {
 - 🔄 **多规则支持**：支持添加多个时间段和房间类型规则
 
 #### 📥 安装步骤
-1. 下载 `scripts/[JSE]Avatar Auto Switch - 2026.05.03.js` 文件
+1. 下载 `scripts/[JSE]Auto Social Status - 2026.05.03.js` 文件
 2. 重命名为 `custom.js` 
 3. 放到 `%APPDATA%/VRCX` 里
 4. 按下 `CTRL + Shift + R` 或重启 VRCX
@@ -155,7 +155,7 @@ li[data-type="error"][style*="--initial-height"] {
 - 🛡️ **智能防重**：避免重复切换和频繁请求
 
 #### 📥 安装步骤
-1. 下载 `scripts/[JSE]Auto Social Status - 2026.05.03` 文件
+1. 下载 `scripts/[JSE]Avatar Auto Switch - 2026.05.03` 文件
 2. 重命名为 `custom.js` 
 3. 放到 `%APPDATA%/VRCX` 里
 4. 按下 `CTRL + Shift + R` 或重启 VRCX
