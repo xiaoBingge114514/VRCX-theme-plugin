@@ -14,6 +14,10 @@
 - [主题插件](#-主题插件)
   - [Darkblue-theme.css](#Darkblue-themecss)
   - [Pink-themes.css](#pink-themescss)
+
+- [关于WebSocketError](#-关于WebSocketError)
+  - [如何去除?](#如何去除?)
+
 - [JS脚本](#-js脚本)
   - [Auto Social Status](#auto-social-status)
   - [Auto Social Status + Avatar Auto Switch](#auto-social-status--avatar-auto-switch)
@@ -61,7 +65,37 @@
 1. 下载 `themes/"颜色主题".css` 文件
 2. 重命名为 `custom.css` 
 3. 放到 `%APPDATA%/VRCX` 里
-4. 按下 `Shift + ALT + R` 或重启 VRCX 即可生效
+4. 按下 `CTRL + Shift + R` 或重启 VRCX 即可生效
+
+<br>
+
+---
+
+## 关于WebSocketError
+
+`VRCX 2026.05.03` 新版本中将错误提示移动到了屏幕正上方，这对于网络有些许不好的朋友来说特别碍眼
+
+<img width="476" height="121" alt="image" src="https://github.com/user-attachments/assets/ec20672b-9f33-438e-a1b3-c2409b3e2544" />
+
+
+### 如何去除?
+
+在.css内加入以下代码即可屏蔽该窗口（只是屏蔽了窗口，但你的网络问题依旧存在）
+
+<pre>
+section[aria-label="Notifications alt+T"] 
+ol.toaster 
+li[data-type="error"][style*="--initial-height"] {
+    height: 0 !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden;
+    opacity: 0 !important; 
+    position: absolute !important; 
+    visibility: hidden !important;
+}
+</pre>
 
 <br>
 
@@ -75,14 +109,14 @@
 
 ---
 
-### 💡 2026.5.3版本 正在更新中 *(5.4)💡
+### 💡 2026.5.3版本 已更新 💡
 
 ### Auto Social Status 
 
 [JSE] 根据时间/房间类型自动切换社交状态
 
 <div align="center">
-<img width="1192" height="962" alt="JSE Auto Social Status" src="https://github.com/user-attachments/assets/d22df9c6-54a5-4223-bfe7-8a74a5e55c29" />
+<img width="1024" height="812" alt="Auto Social Status" src="https://github.com/user-attachments/assets/a9497d95-9729-46d8-9249-3f88ea5ff765" />
 </div>
 
 
@@ -95,10 +129,10 @@
 - 🔄 **多规则支持**：支持添加多个时间段和房间类型规则
 
 #### 📥 安装步骤
-1. 下载 `scripts/[JSE]Auto-Social-Status.js` 文件
+1. 下载 `scripts/[JSE]Avatar Auto Switch - 2026.05.03.js` 文件
 2. 重命名为 `custom.js` 
 3. 放到 `%APPDATA%/VRCX` 里
-4. 重启 VRCX
+4. 按下 `CTRL + Shift + R` 或重启 VRCX
 5. 在 Tools 页面的 **扩展JS** 分类中找到卡片
 6. 点击卡片配置规则
 
@@ -107,9 +141,10 @@
 ### Avatar Auto Switch
 
 [JSE] 根据房间类型自动切换 Avatar
-<img width="1140" height="922" alt="JSE Avatar Auto Switch" src="https://github.com/user-attachments/assets/7554f9d2-eb9d-4cb6-a8d3-feb6889ee93e" />
-<div align="center">
 
+
+<div align="center">
+<img width="1024" height="812" alt="Avatar Auto Switch" src="https://github.com/user-attachments/assets/9235e188-6b31-4c93-b085-47b92fb5406b" />
 </div>
 
 #### 📋 功能说明
@@ -120,10 +155,10 @@
 - 🛡️ **智能防重**：避免重复切换和频繁请求
 
 #### 📥 安装步骤
-1. 下载 `scripts/[JSE]Avatar-Auto-Switch.js` 文件
+1. 下载 `scripts/[JSE]Auto Social Status - 2026.05.03` 文件
 2. 重命名为 `custom.js` 
 3. 放到 `%APPDATA%/VRCX` 里
-4. 重启 VRCX
+4. 按下 `CTRL + Shift + R` 或重启 VRCX
 5. 在 Tools 页面的 **扩展JS** 分类中找到卡片
 6. 点击卡片加载 Avatar 列表并配置切换规则
 
@@ -137,6 +172,8 @@
 
 > 💡 **提示**：规则 A 和规则 B 的房间类型不要重叠，否则只有规则 A 会生效。
 
+> ❗ **提示**：VRCX会缓存玩家的已上传模型列表(包括已删除的模型)，建议点击头像 → 创建的模型 →刷新后再使用。
+
 ---
 
 ### Auto Social Status + Avatar Auto Switch
@@ -144,43 +181,19 @@
 [JSE] 双功能合一：自动切换社交状态 + 自动切换 Avatar
 
 <div align="center">
-<img width="1126" height="449" alt="JSE Auto Social Status+Avatar Auto Switch" src="https://github.com/user-attachments/assets/5c5c9cc5-3a3d-4a9f-921d-aaba6a89f6ca" />
+<img width="1024" height="812" alt="Auto Social Status + Avatar Auto Switch" src="https://github.com/user-attachments/assets/fc30fc99-aecf-46a0-9b07-a056e9fb89cc" />
 </div>
 
 #### 📋 功能说明
 包含上述 **Auto Social Status 和 Avatar Auto Switch** 的全部功能
 
 #### 📥 安装步骤
-1. 下载 `scripts/[JSE]Auto-Social-Status+Avatar-Auto-Switch.js` 文件
+1. 下载 `scripts/[JSE]Avatar Auto Switch + Auto Social Status - 2026.05.03.js` 文件
 2. 重命名为 `custom.js` 
 3. 放到 `%APPDATA%/VRCX` 里
-4. 重启 VRCX
+4. 按下 `CTRL + Shift + R` 或重启 VRCX
 5. 在 Tools 页面的 **扩展JS** 分类中找到两个功能卡片
 6. 分别点击配置状态和 Avatar 规则
-
----
-
-### change-avatar.js（旧版）
-
-更换房间时自动更新模型（单脚本版，无 JSE 支持）
-
-<div align="center">
-<img width="355" height="755" alt="QQ20260129-010806" src="https://github.com/user-attachments/assets/982bdc9f-84fe-4261-903f-5bf8e1565958" />
-</div>
-
-#### 📋 功能说明
-- 🔍 自动检测房间切换事件
-- 🔄 进入新世界时自动更换指定模型
-- 📝 支持自定义触发条件和目标模型
-- 🛡️ 智能防重复触发机制
-
-#### 📥 安装步骤
-1. 下载 `scripts/change-avatar.js` 文件
-2. 重命名为 `custom.js` 
-3. 放到 `%APPDATA%/VRCX` 里
-4. 重启 VRCX 
-5. 根据注释修改配置参数（模型ID等）
-6. 点击 **Save（保存）**
 
 ---
 
