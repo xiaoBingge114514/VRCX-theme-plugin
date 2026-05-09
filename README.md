@@ -15,8 +15,8 @@
   - [Darkblue-theme.css](#Darkblue-themecss)
   - [Pink-themes.css](#pink-themescss)
 
-- [关于WebSocketError](#-关于WebSocketError)
-  - [如何去除?](#如何去除?)
+- [关于WebSocketError](#-关于websocketerror)
+  - [如何去除?](#如何去除)
 
 - [JS脚本](#-js脚本)
   - [Auto Social Status](#auto-social-status)
